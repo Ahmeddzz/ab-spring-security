@@ -52,7 +52,4 @@ public class SecurityConfiguration {
                 return http.build();
     }
 
-    public int may(){
-        return 0;
-    }
 }
