@@ -2,7 +2,7 @@ FROM openjdk:17-jdk
 
 WORKDIR  /app
 
-COPY target/aliboy-security-1.0.0.jar /app/aliboy-security.jar
+COPY target/aliboy-security-0.0.1-SNAPSHOT.jar /app/aliboy-security.jar
 
 EXPOSE 8080
 
